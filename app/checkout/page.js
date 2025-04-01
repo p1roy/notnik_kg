@@ -17,7 +17,7 @@ export default function CheckoutPage() {
       {cart.map((product) => (
         <div key={product.id} className="flex justify-between border-b py-4">
           <span>{product.title}</span>
-          <span className="font-semibold">${product.price}</span>
+          <p className="font-bold">{product.price} сом</p>
         </div>
       ))}
 
