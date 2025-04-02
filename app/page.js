@@ -65,8 +65,8 @@ export default function Home() {
               />
               <div className="p-4">
                 <h3 className="font-semibold text-lg text-gray-800">{product.title}</h3>
-                <p className="text-gray-700 font-bold mb-3">KGS: {product.price}</p>
-                <Link href={`/product/KGS: {product.id}`}>
+                <p className="text-gray-700 font-bold mb-3">{product.price} KGS</p>
+                <Link href={`/product/{product.id} KGS`}>
                   <button className="w-full py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
                     Подробнее
                   </button>
